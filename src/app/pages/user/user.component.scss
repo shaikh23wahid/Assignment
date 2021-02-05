@@ -1,0 +1,78 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background:#fbfbfb;
+}
+
+.card {    
+    width:100%;
+    min-height:300px;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+    transition:0.5s;
+}
+
+.card .box {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
+}
+
+.card .box .img {
+    width:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+    margin-top: -130px;
+}
+
+.card .box .img img {
+    width:100%;
+    height:100%;
+}
+
+.card .box h2 {
+    font-size:20px;
+    color:#262626;
+    margin:20px auto;
+}
+
+.card .box p {
+    color:#262626;
+}
+
+.card .box span {
+    display:inline-flex;
+}
+
+.mrb75{
+    margin-bottom: 75px;
+}
+
+.mrb50 {
+    margin-bottom: 50px;
+}
+
+.panel-heading h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: 75%;
+    padding-top: 8px;
+}
+
+.userBlock {
+    margin: 80px 20px
+}
+
+.nomb {
+    margin-bottom:0;
+}

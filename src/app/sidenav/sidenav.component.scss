@@ -12,10 +12,26 @@
   }
   
   /* The navigation menu links */
+
   .sidenav a {
     padding: 8px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color: #668094;
+    display: block;
+  }
+  
+  .sidenav a.activenav {
+    text-decoration: underline;
+    color: #f1f1f1;
+    background: #1b85d6;
+    padding: 8px 16px;
+    font-size: 15px;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    text-decoration: underline;
+    color: #1b85d6;
     display: block;
   }

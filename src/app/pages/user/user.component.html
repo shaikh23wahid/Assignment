@@ -31,24 +31,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
-                <table datatable [dtOptions]="dtOptions" class="row-border hover">
-                <thead>
-                    <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>website</th>                  
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr *ngFor="let user of users">
-                    <td>{{ user.id }}</td>
-                    <td>{{ user.name }}</td>
-                    <td>{{ user.email }}</td>
-                    <td>{{ user.website }}</td>
-                    </tr>
-                </tbody>
-                </table>
+                <app-datatable [columns]="columns" [data]="users"></app-datatable>
             </div>
             </div>		
         </div>

@@ -1,0 +1,12 @@
+<table datatable [dtOptions]="dtOptions" class="row-border hover">
+    <thead>
+        <tr>
+            <th *ngFor="let col of columns">{{col.label}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of data">
+            <td *ngFor="let col of columns">{{item[col.id]}}</td>
+        </tr>
+    </tbody>
+</table>

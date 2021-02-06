@@ -10,6 +10,7 @@ import { DataTablesModule } from 'angular-datatables';
 import {HttpClientModule} from '@angular/common/http';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
+import { DatatableComponent } from './components/datatable/datatable.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HeaderComponent } from './header/header.component';
     UserComponent,
     HomeComponent,
     SidenavComponent,
-    HeaderComponent
+    HeaderComponent,
+    DatatableComponent
   ],
   imports: [
     BrowserModule,
